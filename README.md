@@ -4,6 +4,9 @@ Graph radio-k vertex coloring algorithms that I have implemented for my Bachelor
 Every algorithm contains a bash script to compile the software.
 
 The implementation of graph structures are taken from https://www.or.uni-bonn.de/~hougardy/alma/alma_eng.html based on the book "Algorithmic Mathematics" by Jens Vygen and Stefan Hougardy.
+
+
+
 Hougardy, S. and Vygen, J.,Algorithmic Mathematics, (2016) 80-83
 
 Some of these algorithms make use of CPLEX to solve linear /intiger-linear programs. To compile those add the necessary CPLEX files to include and lib directories respectively.
