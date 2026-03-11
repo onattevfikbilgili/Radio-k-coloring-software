@@ -1,0 +1,9 @@
+//val_col_check.h - checks wether a given coloring is a valid graph radio k coloring
+
+#include "graph.h"
+#include "kgraph.h"
+#include "coloring.h"
+
+#pragma once
+
+bool valid_coloring_check(Graph & g, unsigned int k, Coloring & c);
